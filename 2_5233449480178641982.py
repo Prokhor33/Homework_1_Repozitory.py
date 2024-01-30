@@ -109,6 +109,10 @@ def main():
                 print('Некорректная команда.')
     except FileNotFoundError:
         print('Файл не найден.')
+    finally:
+        contacts = []
+        write_contacts(contacts)
+        main()
 
 if __name__ == '__main__':
     main()
