@@ -4,7 +4,7 @@ Rest API приложение для работы с меню общепита. 
 mkdir 'your some folder'
 cd 'your some folder'
 git init
-git clone https://github.com/Prokhor33/READMI.md
+git clone https://github.com/Prokhor33/READMI.md3
 cd y_lab_tasks
 Установка
  python11 -m venv venv
